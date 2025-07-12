@@ -9,19 +9,21 @@
 }
 .nav-title{
     color:#4E47FF ;
-    font: bold;
+    font-size: 24px;
+    font-weight: bold;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 32px 64px;
    
 }
 .primary-bg{
     background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
     background-repeat: no-repeat ;
     background-position:center;
-    background-size: 700px 1400px;
+    background-size: cover;
 
 }
 
@@ -56,7 +58,9 @@ nav ul li {
     text-align: center;
 
 }
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;}
 div ul li{ 
      list-style: none;
          /* margin-right: 53px;
@@ -120,4 +124,19 @@ div ul li{
 .get-section{
     display: flex;
     justify-content:space-around;
+}
+.footer-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 291px 121px;
+}
+.footer-description{
+     color: #8987A1;
+     text-align: center;
+}
+.footer-links{
+    list-style: none;
+       display: flex;
+   align-items: center;
+   justify-content: space-between;
 }

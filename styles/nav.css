@@ -54,10 +54,10 @@ nav ul li {
 .intro{ 
     text-align: center;
     padding: 80px 20px;
-    color: white;
+    color:  #252432;
     max-width: 900px;
     margin: 0 auto;
-    
+
 
 }
 main{
@@ -74,39 +74,62 @@ div ul li{
 
 .action-section{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 20px;
+  gap: 40px;
+  max-width: 1140px;
+  margin: 0 auto;
 
 }
 .action-text-box{
            
-             width: 517px;
-             height: 203px;
+           flex:1;
 }
-.action-photo{
-    width: 403px;
-    height: 320px;
-  padding: 5px;
-  border-radius: 5px;
+.action-photo img{
+   width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
 
 }
 .action-description{
+     margin: 16px 0;
     color: #252432;
 }
 .action-button{
-      position: bottom left;
+    margin-top: 20px;
+
 }
-.user-box{
+.productive-users{
       background-color: #d3d2fe;
-         
-         margin: 0;
-         padding: 0;
+      background-color: #F3F6FF;
+       text-align: center;
+       padding: 60px 20px;  
+        
     
 }
-.user-box-title{
-    text-align: center;
-    padding: 30px;
+.productive-users h3 {
+         color: #252432;
+        font-size: 28px;
+          margin-bottom: 40px;
+           font-weight: 700;
 }
+.stats{
+       display: flex;
+      justify-content: center;
+      gap: 60px;
+}
+.stat-item h4 {
+      font-size: 36px;
+     color: #4E47FF;
+      margin-bottom: 8px;
+}
+.stat-item p {
+        color: #252432;
+          font-weight: 600;
+}
+
+
 .action-number{
     border: 0;
     font-size: 80px;
